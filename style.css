@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Manrope:wght@200;300;400;500;600;700&display=swap');
+ :root {
+    --black: #000;
+    --white: #fff;
+    --nav-color: #888888;
+    --nav-color-hover: #000000;
+    --nav-background: #F9F9F9;
+    --font-family: 'Manrope', sans-serif;
+    --font-size: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    height: 100vh;
+    line-height: 1.7;
+}
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background: var(--nav-background);
+    padding: .8rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link {
+    font-size: .97rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    color: var(--nav-color);
+}
+
+.nav-item:hover {
+    color: var(--nav-color-hover);
+}
+
+.active-nav {
+    color: var(--nav-color-hover);
+    border-bottom: 2px solid var(--black);
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #23345B;
+}
+
+.section_one {
+    padding: 7.5rem 0;
+}
+
+.text-wrapper {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--nav-color);
+}
+
+.text-wrapper h1 span {
+    color: var(--black);
+}
+
+.text-wrapper p {
+    font-weight: 500;
+    color: var(--black);
+    line-height: 1.8;
+    width: 69%;
+}
+
+.text-wrapper .btn {
+    width: 33%;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 500;
+    padding: .7rem 1rem;
+    text-align: center;
+    border-radius: .3rem;
+}
+
+.image-wrapper {
+    width: 35%;
+}
+
+.section_one .image-wrapper img {
+    width: 133%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.section_two {
+    padding: 5rem 0;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.card {
+    margin-top: -11rem;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 16px;
+    gap: 18px;
+    border-radius: 4px;
+    color: var(--black);
+    background-color: var(--nav-background);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.card img {
+    width: 50px;
+    height: 24px;
+}
+
+.intro-title {
+    text-align: center;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.intro-paragraph {
+    text-align: center;
+    font-size: 0.975rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    margin-top: 4rem;
+    margin-inline: 2.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta div h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cta div p {
+    font-weight: 500;
+}
+
+.section_three {
+    padding: 7rem 0;
+    background-color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.section_three h1,
+.section_three p {
+    color: var(--black);
+}
+
+.section_three p {
+    width: 60%;
+}
+
+.section_four {
+    margin-bottom: 5rem;
+}
+
+.section_four .text-wrapper {
+    width: 35%;
+}
+
+.section_four .text-wrapper p {
+    width: 100%;
+}
+
+footer {
+    padding: 2.4em 0;
+    background-color: var(--black);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.footer p {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.footer h2,
+.footer p {
+    color: var(--white);
+}
+
+.btn-footer {
+    width: 15%;
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 500;
+    padding: .7rem .5rem;
+    text-align: center;
+    border-radius: .3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .user {
+        display: none;
+    }
+    .nav-links {
+        position: fixed;
+        left: -100%;
+        top: 4.3rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: .7s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .nav-links.active {
+        left: 0;
+    }
+    .nav-link {
+        margin-bottom: .8rem;
+    }
+    .row,
+    .cards,
+    .cta {
+        flex-direction: column;
+    }
+    .cta {
+        gap: 1rem;
+    }
+    header,
+    .text-wrapper,
+    .image-wrapper,
+    .btn {
+        width: 100%;
+    }
+    .section_one {
+        margin-top: 2rem;
+    }
+    .section_one .text-wrapper p {
+        width: 80%;
+    }
+    .section_one .image-wrapper img {
+        width: 100%;
+    }
+    .cards {
+        margin-top: -11rem;
+    }
+    .card {
+        margin-top: 0;
+        margin-bottom: 2rem;
+        width: 510px;
+    }
+    .section_three p {
+        width: 80%;
+    }
+    .section_three .image-wrapper img {
+        display: none;
+    }
+    .section_four .text-wrapper {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .btn-footer {
+        width: 30%;
+    }
+}
