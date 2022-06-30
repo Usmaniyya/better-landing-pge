@@ -356,7 +356,7 @@ footer {
         width: 100%;
     }
     .section_one .text-wrapper .btn {
-        width: 70%;
+        width: 60%;
     }
     .cards {
         margin-top: -11rem;
@@ -374,6 +374,9 @@ footer {
     }
     .section_three .image-wrapper img {
         display: none;
+    }
+    .section_three .btn {
+        width: 60%;
     }
     .section_four .text-wrapper {
         margin-top: 1.5rem;
