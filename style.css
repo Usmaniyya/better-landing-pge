@@ -339,7 +339,7 @@ footer {
         width: 100%;
     }
     .section_one {
-        margin-top: 2rem;
+        margin-block: 3rem;
     }
     .section_one .text-wrapper p {
         width: 80%;
