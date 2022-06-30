@@ -340,12 +340,15 @@ footer {
         margin-bottom: 3rem;
     }
     .section_one {
-        margin-block: 3rem;
+        margin-bottom: 1.5rem;
     }
     .section_one .text-wrapper p {
         width: 100%;
     }
     .section_one .image-wrapper img {
+        width: 100%;
+    }
+    .section_one .text-wrapper .btn {
         width: 100%;
     }
     .cards {
@@ -355,6 +358,9 @@ footer {
         margin-top: 0;
         margin-bottom: 2rem;
         width: 300px;
+    }
+    .section_three {
+        padding: 2rem 0;
     }
     .section_three p {
         width: 100%;
