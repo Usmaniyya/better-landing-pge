@@ -342,6 +342,9 @@ footer {
     .section_one {
         margin-bottom: 1.5rem;
     }
+    .section_one .text-wrapper h1 {
+        width: 100%;
+    }
     .section_one .text-wrapper p {
         width: 100%;
     }
