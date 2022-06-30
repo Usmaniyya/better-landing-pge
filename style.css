@@ -356,7 +356,7 @@ footer {
         width: 510px;
     }
     .section_three p {
-        width: 80%;
+        width: 100%;
     }
     .section_three .image-wrapper img {
         display: none;
@@ -366,6 +366,6 @@ footer {
         width: 100%;
     }
     .btn-footer {
-        width: 30%;
+        width: 80%;
     }
 }
