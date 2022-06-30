@@ -290,6 +290,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
     .hamburger {
         display: block;
         cursor: pointer;
