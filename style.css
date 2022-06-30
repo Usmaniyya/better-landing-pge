@@ -368,6 +368,7 @@ footer {
     }
     .section_three {
         padding-top: 2rem;
+        margin-bottom: 0;
     }
     .section_three p {
         width: 100%;
@@ -377,6 +378,9 @@ footer {
     }
     .section_three .btn {
         width: 60%;
+    }
+    .section_four {
+        margin-top: 0;
     }
     .section_four .text-wrapper {
         width: 100%;
