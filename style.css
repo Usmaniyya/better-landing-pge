@@ -364,7 +364,7 @@ footer {
     .card {
         margin-top: 0;
         margin-bottom: 2rem;
-        width: 300px;
+        width: 460px;
     }
     .section_three {
         padding-top: 2rem;
@@ -386,6 +386,6 @@ footer {
         width: 100%;
     }
     .btn-footer {
-        width: 80%;
+        width: 30%;
     }
 }
