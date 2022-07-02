@@ -289,7 +289,7 @@ footer {
     border-radius: .3rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .container {
         width: 90%;
     }
@@ -364,7 +364,7 @@ footer {
     .card {
         margin-top: 0;
         margin-bottom: 2rem;
-        width: 460px;
+        width: 360px;
     }
     .section_three {
         padding-top: 2rem;
